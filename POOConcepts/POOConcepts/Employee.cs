@@ -1,6 +1,6 @@
 ﻿namespace ConceptsPOO
 {
-    public abstract class Employee: IPay
+    public abstract class Employee
     {
 
         public int Id { get; set; }
@@ -16,7 +16,6 @@
         public bool IsActive { get; set; }
 
         public abstract decimal GetValueToPay();
-
 
         public override string ToString()
         {
